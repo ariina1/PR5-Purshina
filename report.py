@@ -3,7 +3,7 @@ from validators import mask_phone
 
 def show_table(accepted):
     """Выводит корректные анкеты в виде таблицы."""
-    print("\n=== КОРРЕКТНЫЕ АНКЕТЫ ===")
+    print("\n    КОРРЕКТНЫЕ АНКЕТЫ    ")
     print(
         f"{'№':>3} {'ФИО':<28} {'Почта':<25} "
         f"{'Телефон':<19} Группа"
@@ -37,4 +37,4 @@ def print_report(accepted, rejected, total_lines):
         for group, count in sorted(groups.items()):
             print(f"  {group:<8} {count}")
     else:
-        print("  Корректных анкет нет.")
+        print("Корректных анкет нет.")
