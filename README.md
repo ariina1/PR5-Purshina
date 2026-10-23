@@ -22,4 +22,7 @@ GitHub Actions запускает тесты при отправке измен�
 Коммит 1 — описание проекта
 Коммит 2 — описание проекта
 Коммит 3 — описание проекта
+ feature-conflict
 Версия README из feature-conflict
+Версия README из main
+ main
